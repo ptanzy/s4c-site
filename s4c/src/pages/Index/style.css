@@ -1,0 +1,121 @@
+#main-first-sect {
+  background-image: url("/assets/images/barbshop.svg");
+  background-color: #313c53;
+  height: 65vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.box-shadow {
+  border:2px soild #ffffff;
+
+  margin: 10px 10px;
+  -webkit-box-shadow: 2px 3px 8px #575757;
+  -moz-box-shadow: 2px 3px 8px #575757;
+  box-shadow: 2px 3px 8px #575757;
+  border-radius: .5%;
+} 
+
+.grid-container {
+  display: inline-grid;
+  height: 800px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* grid-column-gap: 10px;
+  grid-row-gap: 10px; */
+  /* background: #313c53; */
+}
+
+.s4c-med-img {
+  width: 20%; 
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 70%;  
+  transition: 1.5s;
+}
+
+.s4c-med-img:hover {
+  -webkit-transform: rotateY(180deg); /* Safari prior 9.0 */
+  transform: rotateY(180deg); /* Standard syntax */
+  transition: 1.5s;
+}
+
+#main-conf {
+  grid-row: 1;
+  grid-column: 1 / span 5;
+  background-image: linear-gradient(to bottom right, rgb(49, 60, 83), rgb(84, 79, 104));
+  /* background: rgba(49, 60, 83, 0.95); */
+  color: #f77d55;
+  text-shadow: 1px 1px 2px #1c2330;
+  padding: 15px;
+}
+
+#efficacy-head {
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+}
+
+#conf-head {
+  text-align: center;
+  letter-spacing: .2em;
+  font-size: 300%;
+  font-weight: bolder;
+  font-style: italic;
+  line-height: .01em;
+}
+
+#about-s4c {
+  grid-row: 2;
+  grid-column: 1 / span 5;
+  background-image: linear-gradient(to bottom right,rgb(247, 125, 85), rgb(251, 151, 118));
+  /* background: rgba(247, 125, 85, 0.95); */
+  color: #313c53;
+  text-shadow: 1px 1px 2px #c06243;
+  padding: 20px;
+}
+
+#main-wedo {
+  grid-row: 3 / span 2;
+  grid-column: 1 / span 2;
+  float: left;
+  background-image: linear-gradient(to bottom right, rgb(49, 60, 83), rgb(84, 79, 104));
+  /* background: rgba(49, 60, 83, 0.95); */
+  color: #f77d55;
+  text-shadow: 1px 1px 2px #232b3b;
+  padding: 20px;
+}
+
+#goal-panel {
+  grid-row: 3 / span 2;
+  grid-column: 3;
+  background-image: linear-gradient(to bottom right,rgb(247, 125, 85), rgb(251, 151, 118));
+  /* background: rgba(247, 125, 85, 0.95); */
+  color: #313c53;
+  text-shadow: 1px 1px 2px #c06243;
+  padding: 20px;
+}
+
+#goal-head {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#abt-para, #goal-para {
+  text-shadow: 1px 1px 2px #6e7c9b;
+}
+
+#main-mission {
+  grid-row: 3 / span 2;
+  grid-column: 4 / span 2;
+  float: right;
+  background-image: linear-gradient(to bottom right, rgb(49, 60, 83), rgb(84, 79, 104));
+  /* background: rgba(49, 60, 83, 0.95); */
+  color: #f77d55;
+  text-shadow: 1px 1px 2px #232b3b;
+  padding: 20px;
+}

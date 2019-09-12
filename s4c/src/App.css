@@ -1,0 +1,11 @@
+.prim-text {
+  font-family: 'League Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.sec-text {
+  font-family: "Montserrat Light", Helvetica, sans-serif
+}
+
+html, body {
+  height: 100%;
+}

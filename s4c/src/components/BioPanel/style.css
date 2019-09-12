@@ -1,0 +1,36 @@
+.bio-panel {
+  display: inline-grid;
+  height: 600px;
+  width: 100%;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 2.5% 20% 75% 2.5%;
+}
+
+.bio-name {
+  grid-row: 2;
+  grid-column: 2;
+  background-image: linear-gradient(to bottom right,rgb(247, 125, 85), rgb(251, 151, 118));
+  /* background: rgba(247, 125, 85, 0.95); */
+  color: #313c53;
+  text-shadow: 1px 1px 2px #c06243;
+  padding: 20px;
+}
+
+.bio-para {
+  grid-row: 3;
+  grid-column: 2;
+  background-image: linear-gradient(to bottom right, rgb(49, 60, 83), rgb(84, 79, 104));
+  /* background: rgba(49, 60, 83, 0.95); */
+  color: rgb(236, 237, 239);
+  text-shadow: 1px 1px 2px #1c2330;
+  padding: 40px;
+  overflow: auto;
+  white-space: pre-line;
+}
+
+.s4c-bio-img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 0 20px 10px 0;
+}

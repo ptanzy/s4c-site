@@ -1,0 +1,74 @@
+.prim-text {
+  font-family: 'League Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.sec-text {
+  font-family: "Montserrat Light", Helvetica, sans-serif
+}
+
+html, body {
+  height: 100%;
+}
+
+.s4c-footer {
+  display: inline-grid;
+  height: 60px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+
+#social-links {
+  grid-row: 1;
+  grid-column: 2 / span 3;
+  margin: 0 auto;
+}
+
+#od-quote {
+  font-size: 12px;
+  grid-row: 2;
+  grid-column: 1 / span 5;
+  margin-left: 10px;
+  color: #c06243;
+  overflow: hidden;
+}
+
+
+.fa {
+  padding:  3px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6.5px 5px 3px 5px;
+  border-radius: 10px;
+  transition: 0.35s;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  width: 100;
+  transform: scale(1.4);
+}
+
+.fa-facebook {
+  color: #ffffff;
+  background: #3C5A99;
+}
+
+.fa-instagram {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F77737, #FCAF45, #FFDC80);
+}
+
+.fa-twitter {
+  color: #ffffff;
+  background: #1DA1F2;
+}
+
+.fa-patreon {
+  color: #ffffff;
+  background: #1DA1F2;
+}

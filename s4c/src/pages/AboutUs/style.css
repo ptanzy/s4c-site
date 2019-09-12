@@ -1,0 +1,33 @@
+/* #abt-last-sect {
+  background-image: url("/assets/images/student.svg");
+  background-color: #313c53;
+  height: 40vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+
+.s4c-med-img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+#bio-header {
+  background-image: linear-gradient(to bottom right,rgb(247, 125, 85), rgb(251, 151, 118));
+  /* background: rgba(247, 125, 85, 0.95); */
+  color: #313c53;
+  text-shadow: 1px 1px 2px #c06243;
+  padding: 20px;
+}
+
+.bio-container {
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(226, 238, 243));
+  /* background: rgba(49, 60, 83, 0.95); */
+  color: rgb(236, 237, 239);
+  text-shadow: 1px 1px 2px #1c2330;
+  padding: 20px;
+}

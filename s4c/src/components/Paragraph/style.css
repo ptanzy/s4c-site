@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.sec-text {
+  font-family: "Montserrat Light", 'Montserrat', Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(236, 237, 239);
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+}
