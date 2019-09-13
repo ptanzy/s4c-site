@@ -24,9 +24,9 @@ function App() {
             <br/>-Odlin Sainvilus
           </div>
           <div id="social-links">
-            <a href="/"><i class="fa fa-facebook"></i></a>
-            <a href="/"><i class="fa fa-instagram"></i></a>
-            <a href="/"><i class="fa fa-twitter"></i></a>
+            <a href="/"><i class="fab fa-facebook ftr"></i></a>
+            <a href="/"><i class="fab fa-instagram ftr"></i></a>
+            <a href="/"><i class="fab fa-twitter ftr"></i></a>
           </div>
         </Footer>
       </div>

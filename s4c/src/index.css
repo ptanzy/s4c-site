@@ -36,7 +36,7 @@ html, body {
 }
 
 
-.fa {
+.fab {
   padding:  3px;
   font-size: 15px;
   width: 15px;
@@ -44,31 +44,34 @@ html, body {
   text-decoration: none;
   margin: 6.5px 5px 3px 5px;
   border-radius: 10px;
+}
+
+.ftr {
   transition: 0.35s;
 }
 
-.fa:hover {
+.ftr:hover {
   opacity: 0.7;
   width: 100;
   transform: scale(1.4);
 }
 
 .fa-facebook {
-  color: #ffffff;
+  color: #f5f8fa;
   background: #3C5A99;
 }
 
 .fa-instagram {
   color: #ffffff;
-  background-image: linear-gradient(to bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F77737, #FCAF45, #FFDC80);
+  background-image: linear-gradient(to bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #f56040, #F77737, #FCAF45, #FFDC80);
 }
 
 .fa-twitter {
-  color: #ffffff;
+  color: #f5f8fa;
   background: #1DA1F2;
 }
 
 .fa-patreon {
-  color: #ffffff;
-  background: #1DA1F2;
+  color: #052d49;
+  background: #f96854;
 }

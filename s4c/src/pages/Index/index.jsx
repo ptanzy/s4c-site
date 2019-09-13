@@ -10,7 +10,7 @@ class Index extends Component {
         return(
           <React.Fragment>
             <div class="box-shadow" id="main-first-sect">
-              <ImagePanel class="s4c-med-img" id="logo-s4c-img" src="./assets/images/s4cmed.svg" alt="Styles For Confidence Medium Logo"/>
+              <ImagePanel class="s4c-med-img  box-shadow" id="logo-s4c-img" src="./assets/images/s4cmed.svg" alt="Styles For Confidence Medium Logo"/>
             </div>
             <div class="grid-container">
               <div class="box-shadow" id="main-conf">

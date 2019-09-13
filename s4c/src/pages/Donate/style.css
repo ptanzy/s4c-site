@@ -1,7 +1,7 @@
 #donate-first-sect {
-  background-image: url("/assets/images/student.svg");
+  background-image: url("/assets/images/student.jpg");
   background-color: #313c53;
-  height: 65vh; /* You must set a specified height */
+  height: 50vh; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -16,24 +16,82 @@
   left: 10%;
 }
 
+.donate-container {
+  color: rgb(236, 237, 239);
+  text-shadow: 1px 1px 2px #1c2330;
+  padding: 0px;
+  display: inline-grid;
+  height: 600px;
+  width: 100%;
+  grid-template-columns: 5% 10% 20% 30% 20% 10% 5%;
+  grid-template-rows: 22% 50% 14% 14%
+}
+
 #donate-header {
   background-image: linear-gradient(to bottom right,rgb(247, 125, 85), rgb(251, 151, 118));
   /* background: rgba(247, 125, 85, 0.95); */
   color: #313c53;
   text-shadow: 1px 1px 2px #c06243;
   padding: 20px;
+  grid-row: 1;
+  grid-column: 3 / span 3;
+  text-align: center;
 }
 
-.donate-container {
-  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(226, 238, 243));
-  /* background: rgba(49, 60, 83, 0.95); */
-  color: rgb(236, 237, 239);
-  text-shadow: 1px 1px 2px #1c2330;
-  padding: 20px;
+#donate-para {
+  grid-row: 1;
+  grid-column: 2;
+  padding: 5px 20px;
+  text-align: center;
+  color: #757575;
+  grid-row: 2;
+  grid-column: 3 / span 3;
+} 
 
-  display: inline-grid;
-  height: 600px;
+#don1 {
+  grid-row: 3;
+  grid-column: 4;
+}
+
+#don2 {
+  grid-row: 4;
+  grid-column: 4;
+}
+
+#patr {
+  line-height:2.5em;
+  padding:  0;
+  font-size: 15px;
   width: 100%;
-  grid-template-columns: 10% 80% 10%;
-  grid-template-rows: 2.5% 20% 75% 2.5%;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: none;
+  border-radius: 10px;
+  transition: 0.35s;
+}
+
+.pay {
+  border: none;
+}
+
+#don-text {
+  padding: 0 0 0 5px;
+  font-family: 'League Gothic', 'Pathway Gothic One', Arial, sans-serif;
+  font-size: 25px;
+}
+
+#paypal {
+  border: none;
+  background-color: #009cde;
+  color: #003087;
+  font-family: 'League Gothic', 'Pathway Gothic One', Arial, sans-serif;
+  padding:  3px;
+  font-size: 25px;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: none;
+  border-radius: 10px;
 }
